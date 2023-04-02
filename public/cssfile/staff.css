@@ -1,0 +1,97 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #5D6D7E ;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10%;
+ }
+ 
+  .sidenav h5{
+    text-align: center;
+    padding-bottom:50px;
+    color: #797D7F;
+  }
+  .sidenav a {
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: 0.5s;
+  }
+
+  .sidenav a:hover {
+    background-color: #797D7F;
+    cursor: pointer;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .sidenav a.active {
+    background-color: #212F3C;
+    color: white;
+  }
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  .dropdown {
+  position: static;
+  display: inline;
+  }
+  .equipments{
+    padding: 20px;
+  }
+  .home{
+    padding: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+  }
+  .equipdata{
+    display: absolute;
+    align-items: left;
+  }
+  .action{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .img{
+    margin-left: 100px;
+    padding-bottom: 10px;
+  }
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+  .closebtn{
+    position: absolute;
+    color:white;
+    right: 0px;
+    width: 50px;
+    padding: 10px;
+  }

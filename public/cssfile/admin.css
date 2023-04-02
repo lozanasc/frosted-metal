@@ -1,0 +1,164 @@
+
+    html{
+    background-color: #1B2631;
+    font-family: "Lato", sans-serif;
+    min-height: 400px;
+    margin-bottom: 100px;    
+    padding: 10px;
+
+  }
+  footer{
+    position: fixed;
+    left: 0;
+   bottom: 0;
+   width: 100%;
+  }
+
+    li .dropdown {
+      display: inline-block;
+    }
+
+    li .dropbtn{
+      display:inline-block;
+    }
+    
+    .dropdown-content{
+      position: relative;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    
+    * {box-sizing: border-box}
+
+    /* Style the tab */
+    .tab {
+      list-style-type: none;
+      position: fixed;
+      float: left;
+      background-color: #5D6D7E;
+      height: 100%;
+      width:18%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      top:0;
+      left:0;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab .tablinks {
+      display: block;
+      background-color: inherit;
+      color: black;
+      padding: 10px 14px;
+      width: 100%;
+      border: none;
+      outline: none;
+      text-align: left;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab .tablinks:hover {
+      background-color:#797D7F;
+    }
+
+    /* Create an active/current "tab button" class */
+    .tab .tablinks.active {
+      background-color: #212F3C;
+      color: white;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+    background-color: #1B2631;
+    padding: 20px 12px;
+      width: 82%;
+      border-left: none;
+      margin-left: 18%;
+    }
+
+    .staff{
+      font-weight: bold;
+      padding: 20px;
+      font-size: 20px;
+      color: white;
+    }
+
+    body .home{
+      display: flex;
+      align-items: left;
+      justify-content: space-between;
+      background-color:#34495E;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .home .card-body{
+      padding: 20px;
+      display: flex;
+      align-items: left;
+      justify-content: space-between;
+      background-color:#2E4053;
+      border-radius: 10px;
+
+    }
+
+    .icon-box i{
+      opacity: 0.5;
+      font-size: 50px;
+      margin-right: 20px;
+    }
+    img {
+    transition:transform 0.25s ease;
+    margin: 0 auto;
+
+  }
+
+  img:hover {
+    -webkit-transform:scale(5.5); /* or some other value */
+    transform:scale(5.5);
+    -ms-transform: scale(1.5); /* IE 9 */
+
+  }
+  .col{
+    color: white;
+  }
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+  .closebtn{
+    position: absolute;
+    color:white;
+    right: 0px;
+    width: 50px;
+    padding: 10px;
+  }
+  body .btndash{
+    justify-content: space-around;
+    background-color: #34495E;
+    margin-inline: 20px;
+    border: solid black 1px;
+  }

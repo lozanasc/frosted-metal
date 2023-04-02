@@ -1,0 +1,165 @@
+
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+  li .dropdown {
+    display: inline-block;
+  }
+
+  li .dropbtn{
+    display:inline-block;
+  }
+  
+  .dropdown-content{
+    position: relative;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  }
+
+  .dropdown-content button:hover {
+    color:#5F7389;
+  }
+
+  .dropdown:hover .dropdown-content {
+  display: block;
+  }
+  * {box-sizing: border-box}
+  body {font-family: "Lato", sans-serif;}
+  
+  /* Style the tab */
+  .tab {
+    list-style-type: none;
+    position: fixed;
+    background-color: #5D6D7E;
+    min-height: 400px;
+    width:18%;
+    top: 0;
+    bottom: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* Style the buttons inside the tab */
+  .tab .tablinks {
+    background-color: inherit;
+    color: black;
+    width: 90%;
+    margin-left: 10px;
+    padding: 20px 16px;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+  /* Change background color of buttons on hover */
+  .tab .tablinks:hover {
+    background-color: #797D7F;
+
+  }
+
+  /* Create an active/current "tab button" class */
+  .tab .tablinks.active {
+    background-color:#212F3C;
+    color: white;
+    
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    padding: 12px;
+    width: 82%;
+    border-left: none;
+    margin-left: 18%;
+    top:0;
+    bottom:0;
+    min-height: 100%;
+    margin-bottom: 4em;
+    background-color: #1B2631;
+
+
+  }
+
+  .staff{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #52595D;
+    color: white;
+  }
+
+  .pending{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #778899;
+    color: white;
+  }
+  
+  .home{
+    padding: 20px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    background-color: #212F3C;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.8);
+  }
+  .home .card-body{
+    padding: 20px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    background-color: #212F3C;
+  }
+
+  .icon-box i{
+    opacity: 0.5;
+    font-size: 50px;
+    margin-right: 20px;
+  }
+  img {
+    transition:transform 0.25s ease;
+    margin: 0 auto;
+}
+
+  img:hover {
+    
+    -webkit-transform:scale(5.5); /* or some other value */
+    transform:scale(5.5);
+    -ms-transform: scale(1.5); /* IE 9 */
+}
+  html{
+    background-color: #1B2631;
+    min-height: 400px;
+    margin-bottom: 100px;
+    
+  }
+  footer{
+    position: fixed;
+    left: 0;
+   bottom: 0;
+   width: 100%;
+  }
+  body .btndash{
+    justify-content: space-between;
+    background-color: #34495E;
+    margin-inline: 10px;
+    border: solid black 1px;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+
